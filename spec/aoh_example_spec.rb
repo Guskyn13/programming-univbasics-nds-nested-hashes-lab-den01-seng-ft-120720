@@ -28,12 +28,6 @@ describe 'When a learning to perform lookups in AoHs,' do
   end 
 end
 
-describe 'When a learning to update cells in AoHs,' do
-  describe 'when given a AoH, row, column, and new_value argument,' do
-    it 'the aoh_update method returns an updated aoh' do
-      local_copy_of_aoh = assembled_aoh.dup
-      result = aoh_update(local_copy_of_aoh, 1, :name, "Joelle van Dyne (PGOAT)")
-      expect(result[1][:name]).to eq("Joelle van Dyne (PGOAT)")
-    end
+
   end
 end
