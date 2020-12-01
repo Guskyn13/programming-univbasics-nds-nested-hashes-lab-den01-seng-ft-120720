@@ -41,6 +41,6 @@ def aoh_update(aoh, row, key, new_value)
     KATE_G,
     BRUCE_G,
 
-  aoh_update [1][:name])=("Joelle van Dyne (PGOAT)"
+  aoh_update [1][:name]=("Joelle van Dyne (PGOAT)"
 
 end
