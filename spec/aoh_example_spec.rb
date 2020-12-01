@@ -24,8 +24,8 @@ describe 'When a learning to perform lookups in AoHs,' do
   describe 'when given a aoh, row, and column argument,' do
     it 'the aoh_lookup method returns the requested value' do
       expect(aoh_lookup(assembled_aoh, 2, :name)).to eq("Pat Monteseian")
-    end 
-  end 
+    end
+  end
 end
 
 
